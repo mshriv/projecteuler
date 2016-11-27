@@ -4,11 +4,15 @@ extern void p2();
 extern void p3();
 extern void p4();
 extern void p8();
+extern void p49();
+extern void p50();
 #define P1 0
 #define P2 0
-#define P3 1
+#define P3 0
 #define P4 0
 #define P8 0
+#define P49 0
+#define P50 1
 int main()
 {
 #if (P1 == 1)
@@ -25,6 +29,12 @@ int main()
 #endif
 #if (P8 == 1)
 	p8();
+#endif
+#if (P49 == 1)
+	p49();
+#endif
+#if (P50 == 1)
+	p50();
 #endif
 
 	while (1);
