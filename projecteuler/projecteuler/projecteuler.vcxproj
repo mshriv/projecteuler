@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="p1.cpp" />
+    <ClCompile Include="p10.cpp" />
     <ClCompile Include="p2.cpp" />
     <ClCompile Include="p3.cpp" />
     <ClCompile Include="p4.cpp" />
@@ -152,6 +153,10 @@
     <ClCompile Include="p50.cpp" />
     <ClCompile Include="p8.cpp" />
     <ClCompile Include="p9.cpp" />
+    <ClCompile Include="prime.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prime.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

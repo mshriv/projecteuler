@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{c0c21ec3-d25f-4e57-9ab0-3d582df103b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\include">
+      <UniqueIdentifier>{4f5d89af-84fc-451e-8fed-7d80ba7c6aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\src">
+      <UniqueIdentifier>{83e5269a-0452-40eb-8883-5154a7c37e33}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="p4.cpp">
@@ -45,5 +54,16 @@
     <ClCompile Include="p9.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="p10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prime.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prime.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
