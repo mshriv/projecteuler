@@ -60,6 +60,9 @@
     <ClCompile Include="prime.cpp">
       <Filter>common\src</Filter>
     </ClCompile>
+    <ClCompile Include="p12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prime.h">
