@@ -143,7 +143,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="p1.cpp" />
+    <ClCompile Include="p2.cpp" />
+    <ClCompile Include="p3.cpp" />
     <ClCompile Include="p4.cpp" />
+    <ClCompile Include="p8.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

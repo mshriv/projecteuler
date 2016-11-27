@@ -45,7 +45,6 @@ void p4()
 
 	for (int curpalin = maxpalin; curpalin >= minpalin; curpalin = NextPalin(curpalin))
 	{
-		printf("New Palin: %d\n", curpalin);
 		if (IsProductOfTwoNum(curpalin))
 		{
 			printf("%d\n", curpalin);
