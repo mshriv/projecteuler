@@ -8,6 +8,7 @@ extern void p9();
 extern void p10();
 extern void p11();
 extern void p12();
+extern void p13();
 extern void p48();
 extern void p49();
 extern void p50();
@@ -18,8 +19,9 @@ extern void p50();
 #define P8 0
 #define P9 0
 #define P10 0
-#define P11 1
+#define P11 0
 #define P12 0
+#define P13 1
 #define P48 0
 #define P49 0
 #define P50 0
@@ -51,6 +53,9 @@ int main()
 #endif
 #if (P12 == 1)
 	p12();
+#endif
+#if (P13 == 1)
+	p13();
 #endif
 #if (P48 == 1)
 	p48();
