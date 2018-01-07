@@ -145,6 +145,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="p1.cpp" />
     <ClCompile Include="p10.cpp" />
+    <ClCompile Include="p11.cpp" />
     <ClCompile Include="p12.cpp" />
     <ClCompile Include="p2.cpp" />
     <ClCompile Include="p3.cpp" />
