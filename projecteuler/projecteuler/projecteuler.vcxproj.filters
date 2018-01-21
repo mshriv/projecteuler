@@ -72,6 +72,9 @@
     <ClCompile Include="p14.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="p15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prime.h">
