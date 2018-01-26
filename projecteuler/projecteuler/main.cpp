@@ -12,6 +12,7 @@ extern void p13();
 extern void p14();
 extern void p15();
 extern void p16();
+extern void p17();
 extern void p48();
 extern void p49();
 extern void p50();
@@ -27,7 +28,8 @@ extern void p50();
 #define P13 0
 #define P14 0
 #define P15 0
-#define P16 1
+#define P16 0
+#define P17 1
 #define P48 0
 #define P49 0
 #define P50 0
@@ -71,6 +73,9 @@ int main()
 #endif
 #if (P16 == 1)
 	p16();
+#endif
+#if (P17 == 1)
+	p17();
 #endif
 #if (P48 == 1)
 	p48();
