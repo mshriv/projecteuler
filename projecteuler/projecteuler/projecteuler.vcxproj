@@ -159,6 +159,7 @@
     <ClCompile Include="p48.cpp" />
     <ClCompile Include="p49.cpp" />
     <ClCompile Include="p50.cpp" />
+    <ClCompile Include="p67.cpp" />
     <ClCompile Include="p8.cpp" />
     <ClCompile Include="p9.cpp" />
     <ClCompile Include="prime.cpp" />

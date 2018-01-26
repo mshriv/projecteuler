@@ -17,6 +17,7 @@ extern void p18();
 extern void p48();
 extern void p49();
 extern void p50();
+extern void p67();
 #define P1 0
 #define P2 0
 #define P3 0
@@ -35,6 +36,7 @@ extern void p50();
 #define P48 0
 #define P49 0
 #define P50 0
+#define P67 0
 int main()
 {
 #if (P1 == 1)
@@ -90,6 +92,9 @@ int main()
 #endif
 #if (P50 == 1)
 	p50();
+#endif
+#if (P67 == 1)
+	p67();
 #endif
 
 	while (1);

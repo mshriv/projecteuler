@@ -84,6 +84,9 @@
     <ClCompile Include="p18.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="p67.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prime.h">

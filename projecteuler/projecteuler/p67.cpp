@@ -90,7 +90,7 @@ unsigned long long max(node *root)
 
 void p18()
 {
-	const char *filename = "data.txt";
+	const char *filename = "data1.txt";
 	node *root = NULL;
 	root = Populate(filename);
 
