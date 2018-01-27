@@ -96,6 +96,9 @@
     <ClCompile Include="p21.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="p22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prime.h">
