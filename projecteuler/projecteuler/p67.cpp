@@ -16,7 +16,7 @@ struct node
 	}
 };
 
-node *Populate(const char *f)
+node *Populate1(const char *f)
 {
 	FILE *fp = fopen(f, "r");
 	if (fp == NULL)
@@ -68,7 +68,7 @@ node *Populate(const char *f)
 	return root;
 }
 
-unsigned long long max(node *root)
+unsigned long long max1(node *root)
 {
 	if (root == NULL)
 		return (unsigned long long) 0;
@@ -76,8 +76,8 @@ unsigned long long max(node *root)
 	if (root->maxsum != 0)
 		return root->maxsum;
 
-	unsigned long long left = max(root->l);
-	unsigned long long right = max(root->r);
+	unsigned long long left = max1(root->l);
+	unsigned long long right = max1(root->r);
 
 	if (left > right)
 	{
@@ -88,13 +88,13 @@ unsigned long long max(node *root)
 	return root->maxsum;
 }
 
-void p18()
+void p67()
 {
 	const char *filename = "data1.txt";
 	node *root = NULL;
-	root = Populate(filename);
+	root = Populate1(filename);
 
-	unsigned long long sum = max(root);
+	unsigned long long sum = max1(root);
 
 	printf("%llu", sum);
 	while (1);
