@@ -18,6 +18,8 @@ extern void p19();
 extern void p20();
 extern void p21();
 extern void p22();
+extern void p23();
+extern void p24();
 extern void p48();
 extern void p49();
 extern void p50();
@@ -40,7 +42,9 @@ extern void p67();
 #define P19 0
 #define P20 0
 #define P21 0
-#define P22 1
+#define P22 0
+#define P23 0
+#define P24 1
 #define P48 0
 #define P49 0
 #define P50 0
@@ -103,6 +107,12 @@ int main()
 #endif
 #if (P22 == 1)
 	p22();
+#endif
+#if (P23 == 1)
+	p23();
+#endif
+#if (P24 == 1)
+	p24();
 #endif
 #if (P48 == 1)
 	p48();

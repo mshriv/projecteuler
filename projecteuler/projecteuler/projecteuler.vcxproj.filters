@@ -99,6 +99,12 @@
     <ClCompile Include="p22.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="p23.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p24.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prime.h">
