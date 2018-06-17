@@ -160,6 +160,7 @@
     <ClCompile Include="p22.cpp" />
     <ClCompile Include="p23.cpp" />
     <ClCompile Include="p24.cpp" />
+    <ClCompile Include="p25.cpp" />
     <ClCompile Include="p3.cpp" />
     <ClCompile Include="p4.cpp" />
     <ClCompile Include="p48.cpp" />

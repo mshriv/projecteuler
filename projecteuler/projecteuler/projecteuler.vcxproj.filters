@@ -105,6 +105,9 @@
     <ClCompile Include="p24.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="p25.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prime.h">
